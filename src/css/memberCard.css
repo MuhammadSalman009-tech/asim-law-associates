@@ -1,0 +1,35 @@
+.members-section {
+  padding: 10px 0px;
+}
+.members-section-row {
+  margin: 50px 100px;
+}
+.member-card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  text-align: initial;
+  border-radius: 3px;
+  z-index: 1;
+  align-items: center;
+  margin-top: 30px;
+  height: 350px;
+}
+.member-card-image {
+  width: 100%;
+  padding-top: 10px;
+}
+.member-img {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 0px auto;
+  border-radius: 50%;
+}
+.member-card-body {
+  padding: 10px 20px;
+}
+.member-card-title {
+  color: #f9cf00;
+}

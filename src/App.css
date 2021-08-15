@@ -342,8 +342,9 @@ p#img-p-jail-cell {
 
 .duis-page p {
   max-width: 800px;
-  font-size: 1.2em;
+  font-size: 1em;
   margin: auto;
+  color: #333;
 }
 
 /* personal injury page */

@@ -5,10 +5,28 @@ class AboutPage extends Component {
   render() {
     const members = [
       {
-        name: "Muhammad Salman",
-        about: `This is a wider card with supporting text below as a natural lead-in
-      to additional content. This content is a little bit longer.`,
-        image: `property-law.jpg`,
+        name: "MR. SHAUKAT ALI CHAUDHRY",
+        image: `thumbnail-shaukat.jpg`,
+      },
+      {
+        name: "MR. ADNAN ASHRAF",
+        image: `thumbnail-adnan.jpg`,
+      },
+      {
+        name: "MR. KHAWJA IRFAN UL HAQ",
+        image: `thumbnail-irfan.jpg`,
+      },
+      {
+        name: "MR. JAWAD IQBAL",
+        image: `thumbnail-jawad.jpg`,
+      },
+      {
+        name: "MR. SHAMSHAD AHMAD BAJWA",
+        image: `thumbnail-shamshad.jpg`,
+      },
+      {
+        name: "MR CH. MUHAMMAD YOUSAF",
+        image: `thumbnail-yousaf.jpg`,
       },
     ];
     return (
@@ -21,7 +39,9 @@ class AboutPage extends Component {
                 alt="john-williams-image"
                 src={`${baseURL}images/asim.jpeg`}
               />
+
               <p>
+                <h2>Ch Asim Iqbal</h2>
                 After LLM from University of East London and graduation from
                 Punjab University became a professional Advocate of the High
                 Courts having expertise in the field of Criminal Cases. Mr.
@@ -39,9 +59,11 @@ class AboutPage extends Component {
           </div>
           <div className="members-section">
             <h1>Our Members</h1>
-            {/* {members.map((member) => (
-              <MemberCard member={member} />
-            ))} */}
+            <div className="row members-section-row">
+              {members.map((member) => (
+                <MemberCard member={member} />
+              ))}
+            </div>
           </div>
         </div>
       </>
