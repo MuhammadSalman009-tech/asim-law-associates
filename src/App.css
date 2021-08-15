@@ -349,8 +349,8 @@ p#img-p-jail-cell {
 /* personal injury page */
 
 .personal-injury-page {
-  height: 100vh;
   background-color: #e1d8cb;
+  padding: 10px 0px;
 }
 
 .personal-injury-page h2 {
@@ -361,7 +361,7 @@ p#img-p-jail-cell {
 }
 
 .personal-injury-page p {
-  max-width: 800px;
+  max-width: 600px;
   font-size: 1.2em;
   margin: 0px auto;
 }

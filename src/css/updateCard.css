@@ -4,7 +4,7 @@
 .update-card {
   background-color: #fff;
   display: flex;
-  margin: 50px 100px;
+  margin: 20px 100px;
   padding: 20px;
   text-align: initial;
 }
@@ -13,4 +13,8 @@
 }
 .update-card-body {
   padding: 5px 20px;
+}
+.update-card-text {
+  font-size: 1rem !important;
+  font-weight: normal;
 }
