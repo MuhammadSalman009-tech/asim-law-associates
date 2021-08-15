@@ -11,9 +11,9 @@ function AreasOfExpertyCard({ experty }) {
               <div class="card-body text-center">
                 <p>
                   <img
-                    class=" img-fluid"
                     src={`${baseURL}images/${experty.image}`}
                     alt={experty.name}
+                    height="180px"
                   />
                 </p>
                 <h4 class="card-title">{experty.name}</h4>
