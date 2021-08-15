@@ -1,0 +1,16 @@
+.members-section {
+  padding: 10px 0px;
+}
+.member-card {
+  background-color: #fff;
+  display: flex;
+  margin: 50px 100px;
+  padding: 20px;
+  text-align: initial;
+}
+.member-card-image {
+  width: 30%;
+}
+.member-card-body {
+  padding: 5px 20px;
+}

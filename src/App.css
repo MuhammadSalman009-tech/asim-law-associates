@@ -1,0 +1,448 @@
+.App {
+  text-align: center;
+  font-family: "Cinzel", "Quicksand", sans-serif;
+  background-color: #f4f6fc;
+}
+
+html {
+  height: 100%;
+}
+
+svg {
+  font-size: 3em;
+  color: #a59374;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+a {
+  font-weight: 600;
+  color: black;
+}
+
+img#logo {
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+}
+
+.App-header {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-size: calc(5px + 2vmin);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+div.navBar {
+  height: 50px;
+  margin-top: 55px;
+  vertical-align: middle;
+}
+
+ul {
+  float: right;
+}
+
+li a {
+  color: beige;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #a59374;
+}
+
+/* Home Page */
+.homePage {
+  background-image: url("http://localhost:3000/images/home-background.jpeg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: 100% auto;
+
+  /* 
+  
+  background-position: center center;
+  left: 0;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+   */
+}
+
+.top-half {
+  padding-top: 50px;
+}
+.top-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 auto 5% auto;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  background: transparent;
+}
+.content-1 {
+  width: 350px;
+  padding: 15px;
+  margin-bottom: 50px;
+  background: black;
+  border: 1px solid lightgray;
+}
+
+.content-1 span {
+  color: white;
+}
+
+.content-1 h4 {
+  font-size: 1.4em;
+}
+
+.content-2 {
+  width: 350px;
+  height: auto;
+}
+
+.content-2 h3 {
+  font-size: 1.5em;
+}
+.content-2 span {
+  font-size: 1.3em;
+}
+
+.content-2 span {
+  margin-top: 15%;
+}
+
+.content-3 {
+  margin: 50px auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 100%;
+  flex: 1 100%;
+  padding: 50px;
+  max-width: 50%;
+  min-height: 350px;
+  background: black;
+  opacity: 0.9;
+  padding: 25px 50px;
+  border: 1px solid bisque;
+}
+
+.content-3 h1 {
+  font-size: 3.8em;
+  color: bisque;
+  padding: 25px;
+}
+
+.content-3 h2 {
+  font-size: 2.5em;
+}
+
+.content-3 h2,
+.content-3 h4 {
+  padding: 15px;
+  color: bisque;
+}
+
+.middle-content {
+  height: 500px;
+  padding: 9%;
+  background-color: #c7c3c3;
+}
+
+.middle-content h1 {
+  font-size: 3.5em;
+}
+
+.middle-content p {
+  max-width: 800px;
+  margin: 5% auto;
+  font-size: 1.2em;
+}
+
+.bottom-content {
+  height: auto;
+  background-color: #e1d8cb;
+  margin-bottom: 100px;
+}
+
+.title-bottom-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 100px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.title-bottom-content h1 {
+  font-size: 3.5em;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.law-book,
+.breathlyser,
+.jail-cell {
+  max-height: 325px;
+  width: 250px;
+  margin: 25px;
+  display: inline-block;
+}
+p#img-p-law-book,
+p#img-p-breathlyser,
+p#img-p-jail-cell {
+  margin-top: 10px;
+}
+
+#law-book,
+#jail-cell,
+#breathalyser {
+  border-radius: 50%;
+  width: 100%;
+  height: 250px;
+  border: 2px solid black;
+}
+
+/* About Page */
+
+.about-page {
+  height: 100%;
+  background-color: #e1d8cb;
+}
+
+.about-page-conent {
+  margin: auto;
+}
+
+.about-page h1 {
+  background-color: #a59374;
+  height: auto;
+  padding: 25px;
+}
+
+.about-page__info-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px 100px;
+}
+
+.about-page-content img {
+  height: 400px;
+  margin-top: 25px;
+}
+
+.about-page__info-content p {
+  margin: 25px 50px;
+  text-align: left;
+}
+
+/* contact page */
+
+.contact-page {
+  background-color: #e1d8cb;
+  height: 100vh;
+}
+
+.contact-page h1 {
+  padding-top: 25px;
+  background-color: #a59374;
+  height: 100px;
+  margin-bottom: 100px;
+}
+
+.contact-page p {
+  margin: 25px;
+  font-size: 1.2em;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.contact-page__email,
+.contact-page__phone,
+.contact-page__address {
+  margin: auto;
+}
+
+.contact-page__email p,
+.contact-page__phone p,
+.contact-page__address p {
+  width: 310px;
+}
+
+/* Criminal Defence */
+
+.criminal-defence {
+  height: 100%;
+  background-color: #e1d8cb;
+  padding-bottom: 100px;
+}
+.criminal-defence h1 {
+  padding: 25px 0px 25px 0px;
+  background-color: #a59374;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.criminal-defence p {
+  max-width: 800px;
+  font-size: 1.2em;
+  margin: auto;
+}
+
+/* DUI's Page  */
+
+.duis-page {
+  height: 100%;
+  background-color: #e1d8cb;
+  padding-bottom: 100px;
+  min-height: 800px;
+}
+
+.duis-page h1 {
+  padding: 25px 0px 25px 0px;
+  height: auto;
+  border-bottom: 3px dotted #a59374;
+  margin-bottom: 20px;
+}
+
+.duis-page p {
+  max-width: 800px;
+  font-size: 1.2em;
+  margin: auto;
+}
+
+/* personal injury page */
+
+.personal-injury-page {
+  height: 100vh;
+  background-color: #e1d8cb;
+}
+
+.personal-injury-page h2 {
+  font-size: 1.8em;
+  border-bottom: 2px dotted #a59374;
+  padding: 25px 0px 25px 0px;
+  height: auto;
+}
+
+.personal-injury-page p {
+  max-width: 800px;
+  font-size: 1.2em;
+  margin: 50px auto;
+}
+
+.footer {
+  height: 100px;
+  display: table;
+}
+
+.footer a {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* Hambuger Menu Dropdown */
+
+.hamburgerDropDown {
+  position: fixed;
+  left: 40px;
+  top: 40px;
+  width: 300px;
+  background-color: black;
+  border: 1px solid bisque;
+}
+
+ul.hamburgerDropDown {
+  padding: 10px;
+}
+
+.navbar div {
+  right: -140px;
+  position: relative;
+  display: inline-block;
+}
+
+.footer {
+  width: 100%;
+}
+
+.footer a {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 600px) {
+  .about-page__info-content {
+    padding: 5px;
+    display: block;
+  }
+
+  .content-3 {
+    max-width: 100%;
+    padding: 5px;
+    background: black;
+    opacity: 0.9;
+    margin: 0px;
+    border: 1px solid bisque;
+  }
+
+  .content-3 h1 {
+    color: bisque;
+    margin: 0px;
+    padding: 0px;
+    font-size: 3.5em;
+  }
+
+  .content-3 h2 {
+    margin-top: 10px;
+    padding: 0px;
+    font-size: 1.5em;
+  }
+
+  .content-3 h2,
+  .content-3 h4 {
+    color: bisque;
+  }
+
+  .middle-content {
+    padding: 20px 0px;
+  }
+
+  .middle-content h1 {
+    font-size: 3em;
+  }
+}
