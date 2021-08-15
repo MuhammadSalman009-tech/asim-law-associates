@@ -293,6 +293,9 @@ p#img-p-jail-cell {
 .contact-page__phone,
 .contact-page__address {
   margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-page__email p,
@@ -360,7 +363,7 @@ p#img-p-jail-cell {
 .personal-injury-page p {
   max-width: 800px;
   font-size: 1.2em;
-  margin: 50px auto;
+  margin: 0px auto;
 }
 
 .footer {

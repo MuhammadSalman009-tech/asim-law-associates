@@ -1,19 +1,21 @@
 import React from "react";
 import { baseURL } from "./base-url";
-function UpdatesCard({ member }) {
+import "../css/updateCard.css";
+function UpdatesCard({ update }) {
   return (
-    <div className="member-card">
-      <div className="member-card-image">
+    <div className="update-card">
+      <div className="update-card-image">
         <img
-          src={`${baseURL}images/${member.image}`}
-          className="member-img"
-          alt={member.name}
+          src={`${baseURL}images/${update.image}`}
+          className="update-img"
+          alt={update.title}
           width="100%"
+          height="100%"
         />
       </div>
-      <div className="member-card-body">
-        <h5 className="member-card-title">{member.name}</h5>
-        <p className="member-card-text">{member.about}</p>
+      <div className="update-card-body">
+        <h5 className="update-card-title">{update.title}</h5>
+        <p className="update-card-text">{update.description}</p>
       </div>
     </div>
   );

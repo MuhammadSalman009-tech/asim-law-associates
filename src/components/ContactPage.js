@@ -12,11 +12,14 @@ class ContactPage extends Component {
         </div>
         <div className="contact-page__phone">
           <FaPhone />
-          <p>(760) 723-0069</p>
+          <p>(042) 37231500</p>
         </div>
         <div className="contact-page__address">
           <FaMapMarker />
-          <p>Fallbrook San Diego, CA</p>
+          <p>
+            The Law Company Suite 10, 5th Floor, SAF Centre, 8 Fane Road.
+            Lahore.
+          </p>
         </div>
       </div>
     );

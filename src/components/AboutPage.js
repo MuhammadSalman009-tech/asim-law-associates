@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { baseURL } from "./base-url";
-import "../css/memberCard.css";
 import MemberCard from "./MemberCard";
 class AboutPage extends Component {
   render() {
@@ -40,9 +39,9 @@ class AboutPage extends Component {
           </div>
           <div className="members-section">
             <h1>Our Members</h1>
-            {members.map((member) => (
+            {/* {members.map((member) => (
               <MemberCard member={member} />
-            ))}
+            ))} */}
           </div>
         </div>
       </>
