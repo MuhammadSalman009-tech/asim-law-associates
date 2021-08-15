@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import { experties } from "../data/HomeData";
 import AreasOfExpertyCard from "./AreasOfExpertyCard";
 import ContactUs from "./ContactUs";
@@ -38,12 +38,12 @@ class HomePage extends Component {
           </p>
         </div>
         <div className="bottom-content">
-          <section id="team" class="pb-5">
-            <div class="container">
-              <h1 class="section-title h1">Areas of Experties</h1>
-              <div class="row">
+          <section id="team" className="pb-5">
+            <div className="container">
+              <h1 className="section-title h1">Areas of Experties</h1>
+              <div className="row">
                 {experties.map((experty) => (
-                  <AreasOfExpertyCard experty={experty} />
+                  <AreasOfExpertyCard experty={experty} key={experty.id} />
                 ))}
               </div>
             </div>

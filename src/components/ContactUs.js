@@ -5,22 +5,22 @@ function ContactUs() {
     <form id="contact-form">
       <div className="row">
         <div className="col-md-6">
-          <div class="form-group">
-            <label for="name">Name</label>
+          <div className="form-group">
+            <label htmlFor="name">Name</label>
             <input
               type="text"
-              class="form-control"
+              className="form-control"
               id="name"
               placeholder="Enter Name..."
             />
           </div>
         </div>
         <div className="col-md-6">
-          <div class="form-group">
-            <label for="email">Email address</label>
+          <div className="form-group">
+            <label htmlFor="email">Email address</label>
             <input
               type="email"
-              class="form-control"
+              className="form-control"
               id="email"
               placeholder="Enter Email.."
             />
@@ -29,27 +29,27 @@ function ContactUs() {
       </div>
       <div className="row">
         <div className="col-md-6">
-          <div class="form-group">
-            <label for="phone">Phone</label>
+          <div className="form-group">
+            <label htmlFor="phone">Phone</label>
             <input
               type="number"
-              class="form-control"
+              className="form-control"
               id="phone"
               placeholder="0302XXXXXXX"
             />
           </div>
         </div>
       </div>
-      <div class="form-group">
-        <label for="description">Case Description</label>
+      <div className="form-group">
+        <label htmlFor="description">Case Description</label>
         <textarea
-          class="form-control"
+          className="form-control"
           id="description"
           rows="3"
           placeholder="Case Detail"
         ></textarea>
       </div>
-      <button type="submit" class="btn btn-warning">
+      <button type="submit" className="btn btn-warning">
         Submit
       </button>
     </form>

@@ -16,6 +16,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img
+          alt="logo"
           id="logo"
           src="https://res.cloudinary.com/dmjs1tfzn/image/upload/v1559341191/Screen_Shot_2019-05-31_at_5.19.21_PM.png"
         ></img>

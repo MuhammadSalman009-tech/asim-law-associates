@@ -1,44 +1,16 @@
 import React, { Component } from "react";
+import { members } from "../data/AboutPageData";
 import { baseURL } from "./base-url";
 import MemberCard from "./MemberCard";
 class AboutPage extends Component {
   render() {
-    const members = [
-      {
-        name: "MR. SHAUKAT ALI CHAUDHRY",
-        image: `thumbnail-shaukat.jpg`,
-      },
-      {
-        name: "MR. ADNAN ASHRAF",
-        image: `thumbnail-adnan.jpg`,
-      },
-      {
-        name: "MR. KHAWJA IRFAN UL HAQ",
-        image: `thumbnail-irfan.jpg`,
-      },
-      {
-        name: "MR. JAWAD IQBAL",
-        image: `thumbnail-jawad.jpg`,
-      },
-      {
-        name: "MR. SHAMSHAD AHMAD BAJWA",
-        image: `thumbnail-shamshad.jpg`,
-      },
-      {
-        name: "MR CH. MUHAMMAD YOUSAF",
-        image: `thumbnail-yousaf.jpg`,
-      },
-    ];
     return (
       <>
         <div className="about-page">
           <h1>About Us</h1>
           <div className="about-page-content">
             <div className="about-page__info-content">
-              <img
-                alt="john-williams-image"
-                src={`${baseURL}images/asim.jpeg`}
-              />
+              <img alt="john-williams" src={`${baseURL}images/asim.jpeg`} />
 
               <p>
                 <h2>Ch Asim Iqbal</h2>
@@ -61,7 +33,7 @@ class AboutPage extends Component {
             <h1>Our Members</h1>
             <div className="row members-section-row">
               {members.map((member) => (
-                <MemberCard member={member} />
+                <MemberCard member={member} key={member.id} />
               ))}
             </div>
           </div>
