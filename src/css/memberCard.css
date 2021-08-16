@@ -33,3 +33,8 @@
 .member-card-title {
   color: #f9cf00;
 }
+@media only screen and (max-width: 500px) {
+  .members-section-row {
+    margin: 50px 40px;
+  }
+}

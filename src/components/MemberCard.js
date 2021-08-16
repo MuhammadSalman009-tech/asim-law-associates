@@ -3,7 +3,7 @@ import "../css/memberCard.css";
 import { baseURL } from "./base-url";
 function MemberCard({ member }) {
   return (
-    <div className="col-md-3">
+    <div className="col-xl-3 col-lg-4 col-md-6">
       <div className="member-card">
         <div className="member-card-image">
           <img

@@ -3,7 +3,7 @@ import { baseURL } from "./base-url";
 import "../css/areaOfExpertyCard.css";
 function AreasOfExpertyCard({ experty }) {
   return (
-    <div className="col-xs-12 col-sm-6 col-md-4">
+    <div className="col-xs-12 col-sm-6 col-lg-4">
       <div className="image-flip">
         <div className="mainflip flip-0">
           <div className="frontside">

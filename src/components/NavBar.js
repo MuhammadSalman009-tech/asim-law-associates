@@ -70,7 +70,7 @@ class NavBar extends Component {
           <NavLink to="/">Home</NavLink>
         </li>
         <li className="nav-link">
-          <NavLink to="/about">About Us</NavLink>
+          <NavLink to="/about-us">About Us</NavLink>
         </li>
         <li className="nav-link">
           <NavLink to="/practice-areas">Practice Areas</NavLink>

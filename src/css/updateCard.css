@@ -8,13 +8,20 @@
   padding: 20px;
   text-align: initial;
 }
-.update-card-image {
-  width: 30%;
-}
 .update-card-body {
   padding: 5px 20px;
 }
 .update-card-text {
   font-size: 1rem !important;
   font-weight: normal;
+}
+@media only screen and (min-width: 450px) {
+  .update-card {
+    margin: 20px 50px;
+  }
+}
+@media only screen and (max-width: 449px) {
+  .update-card {
+    margin: 20px 20px;
+  }
 }
