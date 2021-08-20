@@ -4,7 +4,7 @@ function ContactUs() {
   return (
     <form id="contact-form">
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-12">
           <div className="form-group">
             <label htmlFor="name">Name</label>
             <input
@@ -15,7 +15,7 @@ function ContactUs() {
             />
           </div>
         </div>
-        <div className="col-md-6">
+        <div className="col-12">
           <div className="form-group">
             <label htmlFor="email">Email address</label>
             <input
@@ -28,7 +28,7 @@ function ContactUs() {
         </div>
       </div>
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-12">
           <div className="form-group">
             <label htmlFor="phone">Phone</label>
             <input
@@ -50,7 +50,7 @@ function ContactUs() {
         ></textarea>
       </div>
       <button type="submit" className="btn btn-warning">
-        Submit
+        Send Message
       </button>
     </form>
   );

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { experties } from "../data/HomeData";
 import AreasOfExpertyCard from "./AreasOfExpertyCard";
-import ContactUs from "./ContactUs";
+
 class HomePage extends Component {
   render() {
     return (
@@ -48,11 +48,6 @@ class HomePage extends Component {
               </div>
             </div>
           </section>
-        </div>
-        <div className="container contact-us">
-          <h1>Contact Us</h1>
-          <h3>Need Any Legal Help? &nbsp; Let's Consult !</h3>
-          <ContactUs />
         </div>
       </div>
     );

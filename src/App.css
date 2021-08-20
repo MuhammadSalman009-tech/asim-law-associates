@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   font-family: "Cinzel", "Quicksand", sans-serif;
   background-color: #f4f6fc;
 }
@@ -26,8 +25,8 @@ a {
 }
 
 img#logo {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 70px;
   margin: 25px;
 }
 
@@ -179,6 +178,7 @@ a:hover {
 
 .middle-content h1 {
   font-size: 3.5em;
+  text-align: center;
 }
 
 .middle-content p {
@@ -249,6 +249,7 @@ p#img-p-jail-cell {
   background-color: #a59374;
   height: auto;
   padding: 25px;
+  text-align: center;
 }
 
 .about-page__info-content {
@@ -278,23 +279,28 @@ p#img-p-jail-cell {
   padding-top: 25px;
   background-color: #a59374;
   height: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .contact-page p {
-  margin: 25px;
   font-size: 1.2em;
   display: inline-block;
   font-weight: bold;
+  padding: 0px 20px;
 }
 
 .contact-page__email,
-.contact-page__phone,
+.contact-page__phone {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
 .contact-page__address {
   margin: auto;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  margin-top: 50px;
 }
 
 .contact-page__email p,
@@ -315,6 +321,7 @@ p#img-p-jail-cell {
   background-color: #a59374;
   height: auto;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .criminal-defence p {
@@ -337,6 +344,10 @@ p#img-p-jail-cell {
   height: auto;
   border-bottom: 3px dotted #a59374;
   margin-bottom: 20px;
+  text-align: center;
+}
+.duis-page h4 {
+  margin-top: 20px;
 }
 
 .duis-page p {
@@ -344,6 +355,7 @@ p#img-p-jail-cell {
   font-size: 1em;
   margin: auto;
   color: #333;
+  padding: 0px 20px;
 }
 
 /* personal injury page */
@@ -358,6 +370,7 @@ p#img-p-jail-cell {
   border-bottom: 2px dotted #a59374;
   padding: 25px 0px 25px 0px;
   height: auto;
+  text-align: center;
 }
 
 .personal-injury-page p {
@@ -366,14 +379,33 @@ p#img-p-jail-cell {
 }
 
 .footer {
-  height: 100px;
-  display: table;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer a {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
+  display: inline-block;
+  margin: 0px 4px;
+}
+.facebook-social,
+.instagram-social,
+.twitter-social {
+  font-size: 24px;
+}
+.instagram-social {
+  color: #d40060;
+}
+.twitter-social {
+  color: #48a8e4;
+}
+.facebook-social {
+  color: #3167b8;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
 }
 
 /* Hambuger Menu Dropdown */
@@ -452,9 +484,23 @@ ul.hamburgerDropDown {
   .about-page__info-content p {
     margin: 25px 20px;
   }
+  .contact-page__email,
+  .contact-page__phone,
+  .contact-page__address {
+    font-size: 14px;
+  }
 }
 @media only screen and (min-width: 601px) {
   .content-3 {
     max-width: 80%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .contact-us h2 {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .contact-info h2 {
+    text-align: center;
   }
 }

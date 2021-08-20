@@ -15,17 +15,11 @@ class AboutPage extends Component {
               <p>
                 <h2>Ch Asim Iqbal</h2>
                 After LLM from University of East London and graduation from
-                Punjab University became a professional Advocate of the High
-                Courts having expertise in the field of Criminal Cases. Mr.
-                Iqbal has successfully participated in cases as team leader . He
-                is the Head of the Criminal Litigation Cell in the province of
-                Punjab
-                <p>
-                  "International Law Firm, will always demonstrate its
-                  commitment to sustainability, both individually and as a firm.
-                  By actively participating in our communities and integrating
-                  sustainable business practices wherever possible."
-                </p>
+                Punjab University he became a professional Advocate of the High
+                Courts having expertise in the field of corporate consultancy
+                and Criminal Cases. Mr. Iqbal has successfully participated in
+                cases as team leader . He is the head of corporate consultancy
+                and criminal Litigation Cell in the province of Punjab
               </p>
             </div>
           </div>

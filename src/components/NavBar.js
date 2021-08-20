@@ -49,16 +49,6 @@ class NavBar extends Component {
         <li className="nav-link">
           <NavLink to="/contact">Contact</NavLink>
         </li>
-        <button
-          className="btn btn-warning"
-          onClick={() =>
-            document
-              .getElementById("contact-form")
-              .scrollIntoView({ behavior: "smooth", block: "end" })
-          }
-        >
-          Appointment
-        </button>
       </ul>
     );
   };

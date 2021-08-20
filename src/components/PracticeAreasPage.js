@@ -6,35 +6,36 @@ class PracticeAreas extends Component {
       <div className="duis-page">
         <h1>Practice Areas</h1>
         <p>
-          The Law Company is a leading law firm that has been protecting the
-          rights of its clients for more than 2 decades now, and serving public,
-          private and not-for-profit clients across Pakistan and
+          Asim Deo & Associates is a leading law firm that has been protecting
+          the rights of its clients for more than 2 decades now, and serving
+          public, private and not-for-profit clients across Pakistan and
           internationally. With recognized expertise and acknowledged
           leadership, we provide solutions-oriented legal advice through our
           offices in Lahore, and Sialkot. Our firm values – respect, teamwork,
           commitment, client service and professional excellence – are at the
-          heart of The Law Company's commitment to serve our clients, our local
-          communities and the legal profession. The Law Company prides itself on
-          working with clients to lead consensus around creative and practical
-          solutions, while remaining strong advocates for their interests. We
-          listen carefully to our clients to understand their particular needs
-          and circumstances. We then develop diverse legal teams best suited to
-          meet those needs and circumstances. We do not over-lawyer. Our
-          experience demonstrates that knowing a client’s business and
-          objectives and using a team approach, with appropriate delegation and
-          supervision, allows us to deliver excellent cost-effective results.
-          The law firm deals with all kinds of cases. It practices a systematic
-          study and will help you navigate your way through how law functions.
-          The firm’s primary service is to advise clients (individual or
-          corporate) about their legal rights and responsabilities. The firm
-          will provide its clients with advocates to represent the clients in
-          civil, criminal, business transactions and other matter. We are bound
-          by a professional team of advocates and lawyers who have been handling
-          numerous cases before the higher court and trial courts also and we
-          also have an expert team of Civil Lawyers, Criminal Lawyers, Family
-          Lawyers, Corporate Lawyers, Special Advocates, Property Lawyers and
-          are well experienced with managing administration instances.​ We are a
-          full service law chamber specialised in;
+          heart of Asim Deo & Associates's commitment to serve our clients, our
+          local communities and the legal profession. Asim Deo & Associates
+          prides itself on working with clients to lead consensus around
+          creative and practical solutions, while remaining strong advocates for
+          their interests. We listen carefully to our clients to understand
+          their particular needs and circumstances. We then develop diverse
+          legal teams best suited to meet those needs and circumstances. We do
+          not over-lawyer. Our experience demonstrates that knowing a client’s
+          business and objectives and using a team approach, with appropriate
+          delegation and supervision, allows us to deliver excellent
+          cost-effective results. The law firm deals with all kinds of cases. It
+          practices a systematic study and will help you navigate your way
+          through how law functions. The firm’s primary service is to advise
+          clients (individual or corporate) about their legal rights and
+          responsabilities. The firm will provide its clients with advocates to
+          represent the clients in civil, criminal, business transactions and
+          other matter. We are bound by a professional team of advocates and
+          lawyers who have been handling numerous cases before the higher court
+          and trial courts also and we also have an expert team of Civil
+          Lawyers, Criminal Lawyers, Family Lawyers, Corporate Lawyers, Special
+          Advocates, Property Lawyers and are well experienced with managing
+          administration instances.​ We are a full service law chamber
+          specialised in;
           <h4>CRIMINAL CASES </h4>
           Whether you are accused of a crime against a person (like assault or
           murder), a crime against property (like shoplifting or theft), or any
@@ -64,7 +65,7 @@ class PracticeAreas extends Component {
           up a one of a kind customer benefit way to deal with, encourage a full
           scope of legal and paralegal services. Originating from a group of
           legal advisors.
-          <h2>CIVIL CASES</h2>
+          <h4>CIVIL CASES</h4>
           Our civil lawyers hold many years of experience and skills to defend
           individuals in civil legal matters. Take the advantage of our
           experienced team to file or defend property matters, Realestate
@@ -92,7 +93,7 @@ class PracticeAreas extends Component {
           a team sharing knowledge and experience, thereby ensuring that all
           necessary expertise and resources are employed to achieve the best
           possible results for our clients.
-          <h2>FAMILY CASES</h2>
+          <h4>FAMILY CASES</h4>
           Family case is a delicate matter that involves your rights towards
           your spouse and regarding the custody of your children and many other
           issues that need to be dealt sensitively. The process of divorce can
@@ -107,7 +108,7 @@ class PracticeAreas extends Component {
           The Law, while keeping in mind the parents’ right to the custody of a
           child, holds the welfare of the child as the most important factor of
           consideration when deciding upon who gets the custody of a minor child
-          <h2>CORPORATE CASES</h2>
+          <h4>CORPORATE CASES</h4>
           Corporate lawyers are Counselor who advises companies and governments
           on business-related issues. Our corporate lawyers team is divided up
           into departments, where the lawyers specialize in a particular type of
